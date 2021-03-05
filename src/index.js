@@ -1,6 +1,6 @@
 module.exports = function check(str, bracketsConfig) {
   // если количество brackets нечетное - сразу false
-  if (str.length%2 != 0) {
+  if (str.length % 2 != 0) {
     return false;
   }
   // создаем стек и начинаем перебор по str
